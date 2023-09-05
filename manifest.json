@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "OneTab",
+  "version": "1.0",
+  "description": "One Tab Bex",
+  "icons": {
+    "16": "one-tab.png",
+    "48": "one-tab.png",
+    "128": "one-tab.png"
+  },
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module",
+    "persistent": false
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "nativeMessaging"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
