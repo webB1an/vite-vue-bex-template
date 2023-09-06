@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "OneTab",
+  "name": "vite-vue-bex-template",
   "version": "1.0",
-  "description": "One Tab Bex",
+  "description": "vite-vue-bex-template",
   "icons": {
-    "16": "one-tab.png",
-    "48": "one-tab.png",
-    "128": "one-tab.png"
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   },
   "background": {
     "service_worker": "src/background.ts",

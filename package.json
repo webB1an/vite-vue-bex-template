@@ -1,5 +1,5 @@
 {
-  "name": "one-tab-bex",
+  "name": "vite-vue-bex-template",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -10,12 +10,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.1.2",
-    "base64-img": "^1.0.4",
-    "crypto-js": "^4.1.1",
-    "dayjs": "^1.11.9",
     "element-plus": "^2.3.5",
     "lodash-es": "^4.17.21",
-    "nanoid": "^4.0.2",
     "vue": "^3.2.47"
   },
   "devDependencies": {

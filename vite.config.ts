@@ -17,9 +17,11 @@ export default defineConfig({
     Icons({ compiler: 'vue3' }),
     AutoImport({
       resolvers: [ElementPlusResolver()],
+      dts: 'types/auto-imports.d.ts',
     }),
     Components({
       resolvers: [ElementPlusResolver()],
+      dts: 'types/components.d.ts',
     }),
   ],
 })
